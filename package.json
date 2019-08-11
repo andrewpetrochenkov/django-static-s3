@@ -1,0 +1,18 @@
+{
+  "name": "django-static-s3",
+  "version": "2019.8.9",
+  "description": "django static/ S3",
+  "keywords": [
+    "django",
+    "static",
+    "s3"
+  ],
+  "homepage": "https://github.com/andrewp-as-is/django-static-s3",
+  "license": "Unlicense",
+  "bin": {
+    "static-s3": "./scripts/static-s3",
+    "static-s3-create-bucket": "./scripts/static-s3-create-bucket",
+    "static-s3-create-env": "./scripts/static-s3-create-env",
+    "templates-s3-upload": "./scripts/templates-s3-upload"
+  }
+}
